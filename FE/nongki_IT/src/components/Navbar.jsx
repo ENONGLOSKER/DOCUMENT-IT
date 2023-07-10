@@ -2,7 +2,7 @@ import React from 'react'
 
 function Navbar() {
     return (
-        <div className='grid grid-cols-3 items-center justify-center bg-transparent mx-12 p-10'>
+        <div className='grid grid-cols-3 items-center justify-center bg-transparent shadow-lg mx-12 p-10'>
             <div className=''>
                 <h1 className='font-semibold text-white text-2xl '>Dokumentasi</h1>
             </div>
