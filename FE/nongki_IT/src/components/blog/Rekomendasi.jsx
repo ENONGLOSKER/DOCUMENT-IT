@@ -7,12 +7,14 @@ function Rekomendasi() {
         {
             id: 1,
             name: "Belajar Pemrograman",
-            title: "python"
+            title: "Python",
+            date: "12/03/2023"
         },
         {
             id: 2,
             name: "Belajar Pemrograman",
-            title: "javascript"
+            title: "Javascript",
+            date: "12/03/2021"
         },
     ]);
 
@@ -33,7 +35,7 @@ function Rekomendasi() {
     return (
         <div>
             <div className='text-center mt-24 '>
-                <h1 className='text-4xl font-semibold text-white'>Rekomendasi</h1>
+                <h1 className='text-4xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-700 via-green-600 to-orange-500'>Rekomendasi</h1>
                 <p className='text-white'>Paling banyak dibaca dan direkomendasikan</p>
             </div>
 
@@ -49,8 +51,8 @@ function Rekomendasi() {
                             <div className='mx-4 w-full'>
                                 <h3 className='font-semibold text-3xl flex text-white'>{blog.name}</h3>
                                 <div className='flex justify-between mt-2'>
-                                    <a href="#" className='text-white bg-gray-950 py-1 px-4 rounded-full'>{blog.title}</a>
-                                    <p className='text-white'>{blog.date}</p>
+                                    <a href="#" className='text-white bg-gray-950 py-2 px-4 font-semibold rounded-full'>{blog.title}</a>
+                                    <p className='text-white font-semibold'>{blog.date}</p>
                                 </div>
                             </div>
                         </div>
@@ -60,8 +62,8 @@ function Rekomendasi() {
 
             <CardRekomendasi />
 
-            <div className='text-center mt-20'>
-                <a href="#" className='py-5 px-10 bg-[#0EDEFB] font-semibold text-white rounded-full'>Selengkapanya</a>
+            <div className='text-center mt-20 '>
+                <a href="#" className='py-5 px-10 bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%  font-semibold text-white rounded-full'>Selengkapanya</a>
             </div>
 
         </div>

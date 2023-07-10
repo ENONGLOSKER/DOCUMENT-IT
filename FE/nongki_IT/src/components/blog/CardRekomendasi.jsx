@@ -6,17 +6,17 @@ function CardRekomendasi() {
         {
             id: 1,
             name: "Belajar Pemrograman",
-            title: "python"
+            title: "Python"
         },
         {
             id: 2,
             name: "Belajar Pemrograman",
-            title: "javascript"
+            title: "Javascript"
         },
         {
             id: 3,
             name: "Belajar Pemrograman",
-            title: "java"
+            title: "Java"
         },
     ])
 
@@ -32,7 +32,7 @@ function CardRekomendasi() {
                                 <h1 className='text-4xl font-semibold text-white'>{card.name}</h1>
                             </div>
                             <div className='mt-3 '>
-                                <p className='text-white font-semibold bg-red-500 py-1 px-2 rounded-full'>{card.title}</p>
+                                <a href="#" className='text-white font-semibold bg-red-500 py-2 px-5 rounded-full'>{card.title}</a>
                             </div>
                         </div>
                         <img className='w-full rounded-xl' src="./src/assets/img/pemrograman.jpg" alt="" />

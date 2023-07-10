@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react';
+import PageContact from './PageContact';
 
 function Explore() {
 
@@ -41,7 +42,7 @@ function Explore() {
     return (
         <div className='mt-20'>
             <div className='text-center'>
-                <h1 className='text-4xl text-white'>Explore</h1>
+                <h1 className='text-4xl text-transparent font-semibold bg-clip-text bg-gradient-to-r from-blue-700 via-green-600 to-orange-500'>Explore</h1>
                 <p className='text-white'>Temukan tutorial yang ingin kamu pelajari</p>
             </div>
 
@@ -59,6 +60,7 @@ function Explore() {
 
                 </div>
             </div>
+            <PageContact />
         </div>
 
     )
